@@ -118,6 +118,11 @@ function update() {
 		player.frame = 4; 
 	}
 
+	//Adding Jump 
+	if cursors.up.isDown && player.body.touching.down{
+		player.body.velocity.y = -300; 
+	}
+
 	//enemy AI 
 	if (enemy1.x > 759) {
 		enemy1.body.velocity.x = -120; 
