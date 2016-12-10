@@ -133,10 +133,10 @@ function update() {
 	} 
 
 	if (enemy2.x > 200) {
-		enemy2.body.velocity.x = -180; 
+		enemy2.body.velocity.x = -80; 
 		enemy2.animations.play('left'); 	
 	} else if (enemy2.x < 20) {
-		enemy2.body.velocity.x = 180; 
+		enemy2.body.velocity.x = 80; 
 		enemy2.animations.play('right'); 
 	} 
 
